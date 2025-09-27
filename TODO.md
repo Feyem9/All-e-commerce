@@ -1,0 +1,4 @@
+- [x] Uncomment the declarations array in app.module.ts and add all components (AppComponent, NavbarComponent, ProductComponent, etc.) to it.
+- [x] Remove all component imports from the imports array in app.module.ts.
+- [x] Uncomment the bootstrap array with AppComponent.
+- [x] Test the Angular build to ensure no errors. (Skipped by user)
