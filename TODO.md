@@ -1,9 +1,7 @@
-# TODO: Update Backend URL in Frontend
-
-## Tasks
-- [ ] Update cart.service.ts to use new backend URL
-- [ ] Update transaction.service.ts to use new backend URL
-- [ ] Update products.service.ts to use new backend URL
-- [ ] Update profile.component.ts to use new backend URL
-- [ ] Verify all URLs are updated correctly
-- [ ] Test frontend connection to new backend
+- [x] Fix cloudinary_config.py: Define configure_cloudinary function
+- [x] Add cloudinary to requirements.txt
+- [x] Read product_model.py to check picture field
+- [x] Modify product_controller.py: Use Cloudinary for uploads, store URLs
+- [x] Update product_model.py: Change picture field to store URLs if needed (no change needed, field supports URLs)
+- [x] Install dependencies
+- [x] Test image uploads (skipped as per user request)

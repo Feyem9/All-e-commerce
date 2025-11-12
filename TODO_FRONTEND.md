@@ -1,0 +1,4 @@
+- [x] Update product.component.html: Change image src to use product.picture (Cloudinary URL)
+- [x] Check cart.component.html: Already uses item.product_image (Cloudinary URL)
+- [x] Check other components for image displays (none found in Angular components)
+- [ ] Test image display from Cloudinary
