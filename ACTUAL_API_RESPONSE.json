@@ -1,0 +1,92 @@
+[
+  {
+    "current_price": 1199.99,
+    "description": "Latest iPhone with titanium design and A17 Pro chip",
+    "discount_price": 1099.99,
+    "id": 1,
+    "name": "iPhone 15 Pro",
+    "picture": "https://res.cloudinary.com/dzqbzqgjw/image/upload/v1733000000/ecommerce/iphone15pro.jpg",
+    "quantity": 20
+  },
+  {
+    "current_price": 899.99,
+    "description": "Powerful iPhone with Dynamic Island and USB-C",
+    "discount_price": 799.99,
+    "id": 2,
+    "name": "iPhone 15",
+    "picture": "https://res.cloudinary.com/dzqbzqgjw/image/upload/v1733000001/ecommerce/iphone15.jpg",
+    "quantity": 30
+  },
+  {
+    "current_price": 1299.99,
+    "description": "Ultimate Android flagship with S Pen",
+    "discount_price": 1199.99,
+    "id": 3,
+    "name": "Samsung Galaxy S24 Ultra",
+    "picture": "https://res.cloudinary.com/dzqbzqgjw/image/upload/v1733000003/ecommerce/galaxys24ultra.jpg",
+    "quantity": 15
+  },
+  {
+    "current_price": 799.99,
+    "description": "Previous flagship with excellent camera",
+    "discount_price": 699.99,
+    "id": 4,
+    "name": "Samsung Galaxy S23",
+    "picture": "https://res.cloudinary.com/dzqbzqgjw/image/upload/v1733000004/ecommerce/galaxys23.jpg",
+    "quantity": 25
+  },
+  {
+    "current_price": 999.99,
+    "description": "AI-powered camera with 7 years of updates",
+    "discount_price": 899.99,
+    "id": 5,
+    "name": "Google Pixel 8 Pro",
+    "picture": "https://res.cloudinary.com/dzqbzqgjw/image/upload/v1733000006/ecommerce/pixel8pro.jpg",
+    "quantity": 18
+  },
+  {
+    "current_price": 699.99,
+    "description": "Clean Android experience with Magic Eraser",
+    "discount_price": 599.99,
+    "id": 6,
+    "name": "Google Pixel 8",
+    "picture": "https://res.cloudinary.com/dzqbzqgjw/image/upload/v1733000007/ecommerce/pixel8.jpg",
+    "quantity": 22
+  },
+  {
+    "current_price": 899.99,
+    "description": "Fast charging flagship with Hasselblad camera",
+    "discount_price": 799.99,
+    "id": 7,
+    "name": "OnePlus 12",
+    "picture": "https://res.cloudinary.com/dzqbzqgjw/image/upload/v1733000008/ecommerce/oneplus12.jpg",
+    "quantity": 20
+  },
+  {
+    "current_price": 799.99,
+    "description": "Leica camera partnership with Snapdragon 8 Gen 3",
+    "discount_price": 699.99,
+    "id": 8,
+    "name": "Xiaomi 14",
+    "picture": "https://res.cloudinary.com/dzqbzqgjw/image/upload/v1733000009/ecommerce/xiaomi14.jpg",
+    "quantity": 25
+  },
+  {
+    "current_price": 729.99,
+    "description": "Reliable iPhone with excellent performance",
+    "discount_price": 649.99,
+    "id": 9,
+    "name": "iPhone 14",
+    "picture": "https://res.cloudinary.com/dzqbzqgjw/image/upload/v1733000010/ecommerce/iphone14.jpg",
+    "quantity": 30
+  },
+  {
+    "current_price": 429.99,
+    "description": "Affordable iPhone with A15 Bionic",
+    "discount_price": 379.99,
+    "id": 10,
+    "name": "iPhone SE (3rd gen)",
+    "picture": "https://res.cloudinary.com/dzqbzqgjw/image/upload/v1733000020/ecommerce/iphonese.jpg",
+    "quantity": 35
+  }
+]
