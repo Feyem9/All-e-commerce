@@ -8,6 +8,7 @@ services:
       pip install -r backend/E-COMMERCE_APP/requirements.txt
       cd backend/E-COMMERCE_APP
       python3 -m flask db upgrade || true
+      python3 deploy.py
     startCommand: cd backend/E-COMMERCE_APP && gunicorn app:app --bind 0.0.0.0:$PORT --workers 2 --timeout 60
     envVars:
       - key: FLASK_APP
