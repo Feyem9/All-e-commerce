@@ -1,0 +1,25 @@
+# K6 Load Testing - .gitignore
+
+# Résultats de tests
+results.json
+results.xml
+*.log
+
+# Rapports générés
+reports/
+*.html
+
+# Node modules (si vous ajoutez des dépendances)
+node_modules/
+package-lock.json
+
+# K6 cloud
+.k6cloud/
+
+# Fichiers temporaires
+*.tmp
+*.bak
+
+# OS
+.DS_Store
+Thumbs.db

@@ -1,0 +1,25 @@
+{
+    "name": "ecommerce-load-tests",
+    "version": "1.0.0",
+    "description": "K6 Load Tests for E-Commerce Application",
+    "scripts": {
+        "test:frontend": "k6 run frontend-load-test.js",
+        "test:frontend:simple": "k6 run frontend-simple-test.js",
+        "test:backend": "k6 run backend-api-load-test.js",
+        "test:stress": "k6 run stress-test.js",
+        "test:spike": "k6 run spike-test.js",
+        "test:all": "npm run test:frontend && npm run test:backend",
+        "test:production:frontend": "k6 run --env BASE_URL=https://market-jet.vercel.app frontend-load-test.js",
+        "test:production:backend": "k6 run --env API_BASE_URL=https://theck-market.onrender.com backend-api-load-test.js",
+        "test:ci": "k6 run --quiet --no-color frontend-simple-test.js",
+        "report": "k6 run --out json=results.json frontend-simple-test.js && k6-to-junit results.json > report.xml"
+    },
+    "keywords": [
+        "k6",
+        "load-testing",
+        "performance",
+        "e-commerce"
+    ],
+    "author": "Christian",
+    "license": "MIT"
+}
